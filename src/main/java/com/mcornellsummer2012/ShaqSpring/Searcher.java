@@ -150,8 +150,8 @@ public class Searcher {
 		int start = 0;
 		int end = 0;
 		try {
-			start = this.revMap.get("lebron james");
-			end = this.revMap.get("jerry west");
+			start = this.revMap.get(begin);
+			end = this.revMap.get(tgt);
 		} catch (NullPointerException e) {
 			throw e;
 			//this.run();
