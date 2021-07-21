@@ -1,0 +1,28 @@
+h1 {
+	color: black;
+	text-align: center;
+	margin: 0;
+	padding: 30px;
+	background-color: white;
+	font-size: 50px;
+	font-stretch: ultra-expanded;
+	
+}
+body {
+	background-color: black;
+}
+h3 {
+	color: yellow;
+	}
+* {
+	font-family: Arial;
+	color: white;
+}
+
+.submit-button {
+	color: black;
+}
+
+input {
+	color: black;
+}

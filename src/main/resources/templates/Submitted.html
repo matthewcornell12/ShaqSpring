@@ -1,10 +1,22 @@
 <!DOCTYPE HTML>
 <html xmlns:th="https://www.thymeleaf.org">
 	<head>
-		<h1>Degrees of Shaqaration</h1>
+		<link rel="stylesheet" href="/resultpage.css">
 	</head>
 	<body>
+		<h1>Connected NBA</h1>
 		<h3> The Path Is: </h3>
-		<p th:text="${mod.path}" />
+		<table>
+			<tr>
+				<td><h4>Name</h4></td>
+				<td><h4>Picture</h4></td>
+				<td><h4>Bio</h4></td>
+			</tr>
+			<tr th:each="player: ${mod.path}">
+    			<td th:text="${player.name}" />
+    			<td> <img th:src="${player.url}" /> </td>
+    			<td th:text="${player.bio}" />
+			</tr>
+		</table>
 	</body>
 </html>

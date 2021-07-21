@@ -26,6 +26,7 @@ public class Searcher {
 		this.revMap = parser.getRevNums();
 		
 		this.filePath = System.getProperty("user.dir") + "/files/AdjList.txt";
+		
 		try {
 			this.input = new BufferedReader(new FileReader(this.filePath));
 			this.intitiateList();
@@ -37,6 +38,7 @@ public class Searcher {
 	private void intitiateList () {
 		for (int i = 0; i < 4800; i++) {
 			String wholeLine = "";
+			
 			try {
 				wholeLine = input.readLine();
 			} catch (IOException e) {

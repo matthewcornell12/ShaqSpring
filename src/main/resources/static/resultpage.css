@@ -1,0 +1,23 @@
+* {
+	font-family: Arial;
+	color: white;
+}
+h1 {
+	color: black;
+	text-align: center;
+	margin: 0;
+	padding: 30px;
+	background-color: white;
+	font-size: 50px;
+	font-stretch: ultra-expanded;
+	
+}
+table {
+	border-style: ridge;
+	border-width: 15px;
+	border-color: black;
+}
+body {
+	background-color: black;
+}
+
